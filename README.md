@@ -7,5 +7,5 @@ Making scientific calculator from scratch to a learn to code using multiple file
 - Ayush Mahajan - Project leader
 - Anmol Garg
 - B. Shubhangi
-- Ashul Sahu
+- Anshul Sahu
 - Aditya Roy
