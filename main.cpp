@@ -22,13 +22,35 @@ int main()
                 cout << "4)Divide";
                 cout << "what do you wantg to do - ";
                 cin >> chioce1;
+            break;
+            
         case 2: cout << "Trignometric or Inverse - " <<;
                 cin >> choice1;
                 switch(choice1)
                 {
                     case 1: cout << "1) Sine" << endl;
                             cout << "2) Cosine" << endl;
+                            cout << "3) Tangent" << endl;
+                            cout << "4) Cotangetnt" << endl;
+                            cout << "5) Secant" << endl;
+                            cout << "6) Cosecant" << endl;
+                            cout << "Enter choice - " << endl;
+                            cin >> choice1;
+                        break;
+                        
+                    case 2: cout << "inverse of - " << endl;
+                            cout << "1) Sine" << endl;
+                            cout << "2) Cosine" << endl;
+                            cout << "3) Tangent" << endl;
+                            cout << "4) Cotangetnt" << endl;
+                            cout << "5) Secant" << endl;
+                            cout << "6) Cosecant" << endl;
+                            cout << "Enter choice - " << endl;
+                            cin >> choice1;
+                        break;
+                        
                 }
+            break;
     }
     return 0;
 }
