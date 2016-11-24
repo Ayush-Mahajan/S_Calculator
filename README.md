@@ -6,6 +6,6 @@ Making scientific calculator from scratch to a learn to code using multiple file
 ### Contributers
 - Ayush Mahajan - Project leader
 - Anmol Garg
-- B. Shubhangi
+- B. Shubhangi - trigo header file
 - Anshul Sahu
 - Aditya Roy
