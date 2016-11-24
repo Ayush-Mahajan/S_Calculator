@@ -1,4 +1,6 @@
-#inlcude<iostream>
+#include<iostream>
+#include<trigo>
+#include<smath>
 
 using namespace std;
 
