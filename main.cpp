@@ -32,7 +32,8 @@ int main()
                     cin >> chioce1;
                     switch(choice1)
                     {
-                        case 1: //add
+                        case 1: cout << "enter the numbers " ;
+                            cin >> a >> b
                             break;
                         
                         case 2: //sub
