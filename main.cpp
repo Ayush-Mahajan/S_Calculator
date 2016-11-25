@@ -1,14 +1,15 @@
 #include<iostream>
 #include<string>
-#include<trigo>
-#include<smath>
+#include"trigo.h"
+#include"smath.h"
+#include"conversions.h"
 
 using namespace std;
 
 int main()
 {
     string ch;
-    int choice, choice1, a, b, x;
+    int choice, choice1, choice2, a, b, x;
     float angle;
     do{
         cout << "Scientific calculator" << endl;
@@ -17,7 +18,7 @@ int main()
         cout << "3) Logarithimic calculation" << endl;
         cout << "4) Exponentional calculation" << endl;
         cout << "5) Conversions" << endl;
-        cout << "6)" << endl;
+        cout << "6) Calculation of imaginary numbers" << endl;
         cout << "What do you want to do - ";
         cin >> choice;
         switch(chioce)
@@ -70,8 +71,8 @@ int main()
                                 cout << "5) Secant" << endl;
                                 cout << "6) Cosecant" << endl;
                                 cout << "Enter choice - " << endl;
-                                cin >> choice1;
-                                switch(chioce1)
+                                cin >> choice2;
+                                switch(chioce2)
                                 {
                                     case 1: cout << "enter angle";
                                             cin >> angle;
@@ -133,8 +134,8 @@ int main()
                                 cout << "5) Secant" << endl;
                                 cout << "6) Cosecant" << endl;
                                 cout << "Enter choice - " << endl;
-                                cin >> choice1;
-                                switch(choice1)
+                                cin >> choice2;
+                                switch(choice2)
                                 {
                                     case 1: cout << "enter value  - " ;
                                             cin >> value;
@@ -219,8 +220,8 @@ int main()
                                 cout << "3) multiplication" << endl;
                                 cout << "4) divide" << endl;
                                 cout << "Enter choice " ;
-                                cin >> choice1;
-                                switch(choice1)
+                                cin >> choice2;
+                                switch(choice2)
                                 {
                                     case 1: //add
                                         break;
@@ -241,6 +242,80 @@ int main()
                         default: cout << "wrong choice" << endl;
                     }   
                 break;
+                
+            case 4: cout << "Enter number and its power " << endl;
+                    cin >> a >> b;
+                break;
+                
+            case 5: cout << "Conversions of Unit" << endl;
+                    cout << "1) Angle" << endl;
+                    cout << "2) Astromical units" << endl;
+                    cout << "3) Computer units" << endl;
+                    cout << "4) Enegry" << endl;
+                    cout << "5) Force" << endl;
+                    cout << "6) Frequency" << endl;
+                    cout << "7) Heat" << endl;
+                    cout << "8) Length" << endl;
+                    cout << "9) Pressure" << endl;
+                    cout << "10) Power" << endl;
+                    cout << "11) Speed" << endl;
+                    cout << "12) Time" << endl;
+                    cout << "13) Volume" << endl;
+                    cout << "14) Weight " << endl;
+                    cout << "Enter choice - " ;
+                    cin >> choice1;
+                    switch(choice1)
+                    {
+                        case 1: cout << "1)Degree <-> Radians" << endl;
+                                cout << "2)Degree <-> Gradians" << endl;
+                                cout << "3)Radians <-> Gradians" << endl;
+                                cout << "Enter chioce - ";
+                                cin >> choice2;
+                                switch(choice2)
+                                {
+                                    case 1: DR();
+                                        break;
+                                    
+                                    case 2: DG();
+                                        break;
+                                        
+                                    case 3: RG();
+                                        break;
+                                       
+                                    default : cout << "not a right option" << endl;
+                                }
+                            break;
+                            
+                        case 2: // AstUnit
+                            break;
+                            
+                        case 3: cout << "1) Binary <-> Decimal" << endl;
+                                cout << "2) Binary <-> Ternary" << endl;
+                                cout << "3) Binary <-> Quaternary" << endl;
+                                cout << "4) Binary <-> Octal" << endl;
+                                cout << "5) Binary <-> Hexadecimal" << endl;
+                                cout << "6) Ternary <-> Quaternary" << endl;
+                                cout << "7) Ternary <-> Octal" << endl;    
+                                cout << "8) Ternary <-> Hexadeciaml" << endl;
+                                cout << "9) Quaternary <-> Octal" << endl;
+                                cout << "10) Quaternay <-> Hexadecimal" << endl;
+                                cout << "11) Octal <-> Hexadecimal" << endl;
+                                cout << "Enter choice - " << endl;
+                                cin >> choice2;
+                                switch(chioce2)
+                                {
+                                    case 1: BD();
+                                        break;
+                                        
+                                    case 2: DT();
+                                        break;
+                                        
+                                    case 3: BQ();
+                                        break;
+                                        
+                                    case 4: BO();
+                                        break;
+                    }
             
             default: cout << "wrong choice" << endl; 
         }
