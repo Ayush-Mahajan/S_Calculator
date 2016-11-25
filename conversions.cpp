@@ -1,26 +1,38 @@
 #include<iostream>
 
 using namespace std;
+
+int ch;
 //////////////////////////////////////////////////////////////////////////////////
 class angle
 {
     private:
         float degree, radian, gradian;
-        
     public:
         void DR() // Degree <-> Radian
         {
-        
+            cout << "1) Degree" << endl;
+            cout << "2) Radian" << endl;
+            cout << "enter choice" << endl;
+            cin >> ch;
         }
         
         void DG() //Degree <-> Gradians
         {
-        
+            
+            cout << "1) Degree" << endl;
+            cout << "2) Gradian" << endl;
+            cout << "enter choice" << endl;
+            cin >> ch;
         }
         
         void RG() //Radians <-> Gradians
         {
         
+            cout << "1) Radian" << endl;
+            cout << "2) Gradian" << endl;
+            cout << "enter choice" << endl;
+            cin >> ch;
         }
 }
 
@@ -32,57 +44,96 @@ class AstUnit
 class CompUnit
 {
     private :
-        float bin, ter, quat, octal, hexad;
+        float dec, bin, ter, quat, oct, hexa;
         
     public: 
-        void BT() // Binary <-> Decimal
+        void BD() // Binary <-> Decimal
+        {
+            
+            cout << "1) BInary" << endl;
+            cout << "2) Deciaml" << endl;
+            cout << "enter choice" << endl;
+            cin >> ch;
+        }
+    
+        void BT() // Binary <-> Ternary
+        {
+            
+            cout << "1) Binary" << endl;
+            cout << "2) ternary" << endl;
+            cout << "enter choice" << endl;
+            cin >> ch;
+        }
+        
+        void BQ() // Binary <-> Quaternary
+        {
+            cout << "1) Binary" << endl;
+            cout << "2) Quaternary" << endl;
+            cout << "enter choice" << endl;
+            cin >> ch;
+        }
+        
+        void BO() // Binary <-> Octal
+        {
+            cout << "1) Binary" << endl;
+            cout << "2) Octal" << endl;
+            cout << "enter choice" << endl;
+            cin >> ch;
+        }
+        
+        void BH() // Binary <-> Hexadecimal
         {
         
         }
         
-        void BQ() // Binary <-> Ternary
+        void TQ() // Ternary <-> Quaternary
         {
         
         }
         
-        void BO() // Binary <-> Quaternary
+        void TO() // Ternary <-> Octal
         {
         
         }
         
-        void BH() // Binary <-> Octal
+        void TH() // Ternary <-> Hexadeciaml
         {
         
         }
         
-        void TQ()
+        void QO() // Quaternary <-> Octal
         {
         
         }
         
-        void TO()
+        void QH() // Quaternay <-> Hexadecimal
         {
         
         }
         
-        void TH()
+        void OH() // Octal <-> Hexadecimal
         {
         
         }
-        
-        void QO()
+    
+        void DT()
         {
-        
+            
         }
-        
-        void QH()
+    
+        void DQ()
         {
-        
+            
         }
-        
-        void OH()
+    
+        void DO()
         {
-        
+            
+        }
+    
+        void DH()
+        {
+            
         }
     
 }
