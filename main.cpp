@@ -34,17 +34,16 @@ int main()
                     cin >> chioce1;
                     switch(choice1)
                     {
-                        case 1: cout << "enter the numbers " ;
-                            cin >> a >> b
+                        case 1: add();
                             break;
                         
-                        case 2: //sub
+                        case 2: sub();
                             break;
                     
-                        case 3: //mul
+                        case 3: mul()
                             break;
                         
-                        case 4: //div
+                        case 4: div();
                             break;
                        
                         case 5: cout << "enter the number - ";
@@ -319,6 +318,41 @@ int main()
                                         
                                     case 4: BO();
                                         break;
+                                        
+                                    case 5: BH();
+                                        break;
+                                        
+                                    case 6: TQ();
+                                        break;
+                                        
+                                    case 7: TO();
+                                         break;
+                                        
+                                    case 8: TH();
+                                        break;
+                                        
+                                    case 9: QO();
+                                        break;
+                                        
+                                    case 10: QH();
+                                        break;
+                                        
+                                    case 11: OH();
+                                        break;
+                                        
+                                    case 12: DT();
+                                        break;
+                                        
+                                    case 13: DQ();
+                                        break;
+                                        
+                                    case 14: DO();
+                                        break;
+                                        
+                                    case 15: DH();
+                                        break;
+                                      
+                                    default: cout << " Wrong Choice " << endl;
                     }
             
             default: cout << "wrong choice" << endl; 
