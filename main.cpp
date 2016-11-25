@@ -300,6 +300,10 @@ int main()
                                 cout << "9) Quaternary <-> Octal" << endl;
                                 cout << "10) Quaternay <-> Hexadecimal" << endl;
                                 cout << "11) Octal <-> Hexadecimal" << endl;
+                                cout << "12) Decimal <-> Ternay" << endl;
+                                cout << "13) Dicemal <-> Quaternary" << endl;
+                                cout << "14) Deciaml <-> Octal" << endl;
+                                cout << "15) Deciaml <-> Hexaeciaml" << endl
                                 cout << "Enter choice - " << endl;
                                 cin >> choice2;
                                 switch(chioce2)
